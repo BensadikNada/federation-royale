@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Styles/NavRT.css';
 import '../../Styles/FootBallField.css';
-import gif from 'logo/pitch.gif'
+import gif from '/logo/pitch.gif'
 
 function FootBallField() {
   return (
