@@ -3,7 +3,7 @@ import Header from '../Components/Header';
 import NavigationButtons from '../Components/NavigationButtons';
 import '../Styles/AfterLogin.css';
 import CountUp from '../Components/CountUp';  // Ensure the correct path
-import morocco from ''
+
 function AfterLogin() {
   return (
     <div>
