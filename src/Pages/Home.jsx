@@ -3,6 +3,7 @@ import Main from "../Components/Main";
 import Footer from "../Components/Footer";
 import "../Styles/NavBar.css";
 import { Link, useNavigate } from 'react-router-dom'; // Use useNavigate from react-router-dom
+import homePage from '/logo/logo-equipe.png'
 
 function Home() {
   const [isLoginOpen, setIsLoginOpen] = useState(false); // State to toggle the login modal
@@ -23,7 +24,7 @@ function Home() {
     <div>
       {/* Navigation Bar */}
       <nav>
-        <img src="logo/logo-equipe.png" alt="logo" />
+        <img src={homePage} alt="logo" />
         <div className="links">
           <Link to="/">Home</Link>
         </div>
