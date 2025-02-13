@@ -3,6 +3,7 @@ import '../../Styles/NavRT.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
+import log from '/logo/logo-equipe.png';
 
 function NavRT() {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -13,7 +14,7 @@ function NavRT() {
 
   return (
     <div className="nav-rt">
-      <img src="/logo/logo-equipe.png" alt="logo-equipe" />
+      <img src={log} alt="logo-equipe" />
       <h3>Suivi en temps réel</h3>
       <div className="dropdown">
         <button className="dropdown-toggle" onClick={toggleDropdown}>

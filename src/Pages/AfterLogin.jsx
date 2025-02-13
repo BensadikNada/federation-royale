@@ -3,6 +3,7 @@ import Header from '../Components/Header';
 import NavigationButtons from '../Components/NavigationButtons';
 import '../Styles/AfterLogin.css';
 import CountUp from '../Components/CountUp';  // Ensure the correct path
+import morocco from ''
 function AfterLogin() {
   return (
     <div>
@@ -12,9 +13,9 @@ function AfterLogin() {
     
       <div className='team'>
       
-      <img src="logo/Team-Maroc.png" height={"150px"} alt="" />
+      <img src="/logo/Team-Maroc.png" height={"150px"} alt="" />
       <h4>VS</h4>
-      <img src="logo/Team-France.png" height={"150px"}  alt="" />
+      <img src="/logo/Team-France.png" height={"150px"}  alt="" />
   
       </div>
       </div>
