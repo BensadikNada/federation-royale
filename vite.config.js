@@ -6,5 +6,5 @@ export default {
   optimizeDeps: {
     include: ['react-router-dom']
   },
-  base: '/federation-royale'
+  base: '/federation-royale/'
 }
