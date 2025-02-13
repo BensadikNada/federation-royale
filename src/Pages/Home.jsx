@@ -23,7 +23,7 @@ function Home() {
     <div>
       {/* Navigation Bar */}
       <nav>
-        <img src="/logo/logo-equipe.png" alt="logo" />
+        <img src="logo/logo-equipe.png" alt="logo" />
         <div className="links">
           <Link to="/">Home</Link>
         </div>
