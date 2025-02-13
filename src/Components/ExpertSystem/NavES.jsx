@@ -3,6 +3,7 @@ import '../../Styles/NavRT.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
+import logoTeam from '/logo/logo-equipe.png'
 
 function NavES() {
     const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -12,7 +13,7 @@ function NavES() {
     };
   return (
     <div className='nav-rt'>
-        <img src="/logo/logo-equipe.png" alt="logo-equipe" />
+        <img src={logoTeam} alt="logo-equipe" />
         <h3>Système expert intelligent</h3>
         <div className="dropdown">
         <button className="dropdown-toggle" onClick={toggleDropdown}>
